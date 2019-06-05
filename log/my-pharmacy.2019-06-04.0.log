@@ -1,0 +1,52 @@
+2019-06-04 14:19:50,604 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-04 14:19:54,096 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-04 14:19:54,280 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-04 14:19:54,346 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@5a595cad 
+2019-06-04 14:19:54,363 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-04 14:19:54,777 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-04 14:19:54,945 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-04 14:19:54,947 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-04 14:19:55,019 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-04 14:19:55,020 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-04 14:19:55,020 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-04 14:19:55,020 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-04 14:19:55,020 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-04 18:09:46,372 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-04 18:09:46,379 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:34657989, ignoring options. 
+2019-06-04 18:09:46,381 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@5a595cad 
+2019-06-04 18:09:46,389 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-04 18:09:46,390 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-04 18:09:46,406 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-04 18:09:46,407 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-04 18:09:46,407 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-04 18:09:46,407 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-04 18:17:06,375 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-04 18:17:08,987 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-04 18:17:09,181 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-04 18:17:09,252 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@443253eb 
+2019-06-04 18:17:09,271 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-04 18:17:09,707 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-04 18:17:09,819 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-04 18:17:09,821 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-04 18:17:09,860 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-04 18:17:09,861 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-04 18:17:09,862 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-04 18:17:09,862 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-04 18:17:09,863 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-04 18:19:11,265 [XNIO-1 task-7] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-04 18:19:11,268 [XNIO-1 task-7] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-04 18:20:38,595 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-04 18:20:38,599 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:354024189, ignoring options. 
+2019-06-04 18:20:38,601 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@443253eb 
+2019-06-04 18:20:38,603 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-04 18:20:38,603 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-04 18:20:38,628 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-04 18:20:38,629 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-04 18:20:38,629 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-04 18:20:38,629 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 

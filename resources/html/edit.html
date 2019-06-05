@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="columns">
+  <div class="column">
+    <form method="POST" action="/edit">
+      {% csrf-field %}
+      <div class="field">
+        <label class="label">Medication Name</label>
+        <div class="control">
+          <input class="input" name="medication_name" type="text" value="{{medication.medication_name}}"/>
+          {% if errors.medication_name %}
+          <div class="notification is-danger">{{errors.medication_name|join}}</div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Generic Name</label>
+        <div class="control">
+          <input class="input" name="generic_name" type="text" value="{{medication.generic_name}}"/>
+{% if errors.generic_name %}
+<div class="notification is-danger">{{errors.generic_name|join}}</div>
+{% endif %}
+</div>
+</div>
+
+<div class="field">
+  <label class="label">Uses</label>
+  <div class="control">
+    <textarea class="textarea" name="uses">{{medication.uses}}</textarea>
+    {% if errors.uses %}
+    <div class="notification is-danger">{{errors.uses|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Side Effects</label>
+  <div class="control">
+    <textarea class="textarea" name="side_effects">{{medication.side_effects}}</textarea>
+    {% if errors.side_effects %}
+    <div class="notification is-danger">{{errors.side_effects|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Precautions</label>
+  <div class="control">
+    <textarea class="textarea" name="precautions">{{medication.precautions}}</textarea>
+    {% if errors.precautions %}
+    <div class="notification is-danger">{{errors.precautions|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Stock</label>
+  <div class="control">
+    <input class="input" name="stock" type="number" value="{{medication.stock}}"/>
+
+    {% if errors.stock %}
+    <div class="notification is-danger">{{errors.stock|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Expiration Date</label>
+  <div class="control">
+
+    <input class="input" name="expiration_date" type="date" value="{{medication.expiration_date}}"/>
+
+    {% if errors.expiration_date %}
+    <div class="notification is-danger">{{errors.expiration_date|join}}</div>
+    {% endif %}
+  </div>
+</div>
+<input type="hidden" name="id" value="{{medication.id}}">
+<br>
+<input class="button is-primary" type="submit" value="Save"/>
+</form>
+</div>
+</div>
+{% endblock %}

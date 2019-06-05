@@ -1,0 +1,846 @@
+2019-06-03 10:44:41,426 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 10:44:44,051 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 10:44:44,267 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 10:44:44,392 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@4257b876 
+2019-06-03 10:44:44,406 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 10:44:44,791 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 10:44:44,905 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 10:44:44,907 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 10:44:44,944 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 10:44:44,944 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 10:44:44,945 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 10:44:44,945 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 10:44:44,945 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 10:55:17,836 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 10:55:17,844 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1303396346, ignoring options. 
+2019-06-03 10:55:17,848 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@4257b876 
+2019-06-03 10:55:17,852 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 10:55:17,853 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 10:55:17,865 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 10:55:17,866 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 10:55:17,866 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 10:55:17,866 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 10:56:09,060 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 10:56:11,692 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 10:56:11,878 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 10:56:11,937 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@1bfcf859 
+2019-06-03 10:56:11,954 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 10:56:12,369 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 10:56:12,495 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 10:56:12,498 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 10:56:12,533 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 10:56:12,534 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 10:56:12,534 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 10:56:12,534 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 10:56:12,535 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 10:58:23,105 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 10:58:23,114 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:1000616246, ignoring options. 
+2019-06-03 10:58:23,118 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@1bfcf859 
+2019-06-03 10:58:23,120 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 10:58:23,123 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 10:58:23,137 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 10:58:23,137 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 10:58:23,138 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 10:58:23,138 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 10:59:42,217 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 10:59:44,706 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 10:59:44,875 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 10:59:44,935 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@1dcc4f9f 
+2019-06-03 10:59:44,952 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 10:59:45,257 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 10:59:45,402 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 10:59:45,404 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 10:59:45,452 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 10:59:45,453 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 10:59:45,454 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 10:59:45,455 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 10:59:45,455 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 11:11:56,574 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 11:11:56,585 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1761975477, ignoring options. 
+2019-06-03 11:11:56,590 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@1dcc4f9f 
+2019-06-03 11:11:56,594 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 11:11:56,596 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 11:11:56,609 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 11:11:56,610 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 11:11:56,611 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 11:11:56,611 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 11:12:52,552 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:15:32,652 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:15:35,378 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 11:15:35,400 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2019-06-03 11:15:35,447 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x454f2ac7 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 11:15:35,462 [main] INFO  migratus.core - Running up for [20190529100849] 
+2019-06-03 11:15:35,464 [main] INFO  migratus.core - Up 20190529100849-add-pharmacy-table 
+2019-06-03 11:15:35,473 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 11:15:35,484 [main] DEBUG migratus.database - marking 20190529100849 complete 
+2019-06-03 11:15:35,498 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 11:24:09,304 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:25:36,455 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:25:39,730 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 11:25:39,786 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x6114a516 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 11:25:39,793 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 11:27:14,047 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:27:16,886 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 11:27:16,934 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x454f2ac7 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 11:27:16,940 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 11:33:23,793 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:33:29,213 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 11:33:29,558 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 11:33:29,668 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@1dcc4f9f 
+2019-06-03 11:33:29,692 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 11:33:30,176 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 11:33:30,329 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 11:33:30,331 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 11:33:30,374 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 11:33:30,374 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 11:33:30,374 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 11:33:30,375 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 11:33:30,375 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 11:33:38,164 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:33:41,062 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 11:33:41,100 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x3633642f /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 11:33:41,106 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 11:35:40,686 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 11:35:40,694 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1761975477, ignoring options. 
+2019-06-03 11:35:40,698 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@1dcc4f9f 
+2019-06-03 11:35:40,700 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 11:35:40,709 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 11:35:40,719 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 11:35:40,719 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 11:35:40,719 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 11:35:40,719 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 11:44:36,398 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:44:39,324 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 11:44:39,374 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x454f2ac7 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 11:44:39,381 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 11:48:53,727 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 11:48:56,905 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 11:48:56,969 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x3a54a40f /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 11:48:56,979 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 11:57:23,329 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 12:00:41,122 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 12:13:06,730 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 12:24:06,397 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 12:24:11,412 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 12:24:11,486 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x1f7c18e5 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 12:24:11,494 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 12:25:51,170 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 12:25:55,575 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 12:25:55,632 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x657e0d21 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 12:25:55,640 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 12:29:23,545 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 12:29:28,244 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 12:29:28,291 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x657e0d21 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 12:29:28,297 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 13:58:25,449 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 13:58:27,964 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 13:58:28,106 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 13:58:28,165 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 13:58:28,181 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 13:58:28,524 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 13:58:28,619 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 13:58:28,621 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 13:58:28,659 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 13:58:28,659 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 13:58:28,659 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 13:58:28,660 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 13:58:28,660 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:00:37,182 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:00:37,192 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:556526229, ignoring options. 
+2019-06-03 14:00:37,196 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 14:00:37,204 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:00:37,208 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:00:37,218 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:00:37,218 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:00:37,218 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:00:37,219 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:01:30,476 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:01:33,069 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 14:01:33,208 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 14:01:33,260 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 14:01:33,274 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 14:01:33,513 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 14:01:33,627 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 14:01:33,629 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 14:01:33,665 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 14:01:33,666 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 14:01:33,666 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 14:01:33,666 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 14:01:33,666 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:03:15,597 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:03:15,613 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:556526229, ignoring options. 
+2019-06-03 14:03:15,630 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 14:03:15,635 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:03:15,637 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:03:15,656 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:03:15,657 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:03:15,658 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:03:15,659 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:04:08,953 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:04:11,558 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 14:04:11,762 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 14:04:11,846 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@28de06bf 
+2019-06-03 14:04:11,862 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 14:04:12,183 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 14:04:12,355 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 14:04:12,357 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 14:04:12,397 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 14:04:12,398 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 14:04:12,398 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 14:04:12,398 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 14:04:12,398 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:09:41,617 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:09:41,633 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-704726669, ignoring options. 
+2019-06-03 14:09:41,641 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@28de06bf 
+2019-06-03 14:09:41,648 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:09:41,649 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:09:41,676 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:09:41,677 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:09:41,677 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:09:41,678 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:10:35,087 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:10:37,709 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 14:10:37,898 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 14:10:37,979 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@1bfcf859 
+2019-06-03 14:10:38,000 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 14:10:38,352 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 14:10:38,472 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 14:10:38,474 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 14:10:38,528 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 14:10:38,529 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 14:10:38,530 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 14:10:38,530 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 14:10:38,530 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:13:22,022 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:13:22,031 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:1000616246, ignoring options. 
+2019-06-03 14:13:22,036 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@1bfcf859 
+2019-06-03 14:13:22,042 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:13:22,043 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:13:22,062 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:13:22,063 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:13:22,064 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:13:22,064 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:14:16,561 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:14:19,815 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 14:14:19,992 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 14:14:20,054 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@618e424f 
+2019-06-03 14:14:20,069 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 14:14:20,405 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 14:14:20,517 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 14:14:20,519 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 14:14:20,560 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 14:14:20,561 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 14:14:20,561 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 14:14:20,562 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 14:14:20,563 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:16:50,451 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:16:50,456 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:1329708979, ignoring options. 
+2019-06-03 14:16:50,465 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@618e424f 
+2019-06-03 14:16:50,469 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:16:50,470 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:16:50,518 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:16:50,519 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:16:50,519 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:16:50,520 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:17:55,734 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:19:21,960 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:20:42,721 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:20:45,440 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 14:20:45,645 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 14:20:45,732 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@393d5b3f 
+2019-06-03 14:20:45,753 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 14:20:46,110 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 14:20:46,302 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 14:20:46,310 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 14:20:46,378 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 14:20:46,378 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 14:20:46,379 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 14:20:46,379 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 14:20:46,379 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:21:07,094 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:21:07,099 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:661694193, ignoring options. 
+2019-06-03 14:21:07,103 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@393d5b3f 
+2019-06-03 14:21:07,106 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:21:07,107 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:21:07,116 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:21:07,116 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:21:07,116 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:21:07,116 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:24:26,031 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:24:28,235 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:24:28,609 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x6fa23374 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:24:28,615 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 14:25:32,435 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:27:29,506 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:27:32,588 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 14:27:32,826 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 14:27:32,892 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 14:27:32,915 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 14:27:33,258 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 14:27:33,385 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 14:27:33,387 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 14:27:33,427 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 14:27:33,428 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 14:27:33,428 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 14:27:33,428 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 14:27:33,428 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:29:00,883 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:29:00,890 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:556526229, ignoring options. 
+2019-06-03 14:29:00,892 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 14:29:00,895 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:29:00,898 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:29:00,909 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:29:00,909 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:29:00,909 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:29:00,910 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:40:20,265 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:40:22,454 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:40:22,852 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x685f7fd9 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:40:22,868 [main] INFO  migratus.core - Running up for [20190530100849] 
+2019-06-03 14:40:22,869 [main] INFO  migratus.core - Up 20190530100849-add-pharmacy-table 
+2019-06-03 14:40:22,898 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 14:40:22,910 [main] ERROR migratus.migration.sql - failed to execute command:
+ CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ 
+2019-06-03 14:40:22,911 [main] ERROR migratus.migration.sql - Table "PHARMACY" already exists; SQL statement:
+CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ [42101-197] 
+2019-06-03 14:40:22,912 [main] ERROR migratus.database - Migration add-pharmacy-table failed because Table "PHARMACY" already exists; SQL statement:
+CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ [42101-197] backing out 
+2019-06-03 14:40:22,914 [main] DEBUG migratus.migration.sql - found 1 down migrations 
+2019-06-03 14:40:22,936 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 14:48:52,934 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:48:55,326 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:48:55,748 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x30315a1c /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:48:55,756 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 14:50:30,371 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:50:32,988 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:50:33,354 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x10b34165 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:50:33,373 [main] INFO  migratus.core - Running up for [20190530100849] 
+2019-06-03 14:50:33,374 [main] INFO  migratus.core - Up 20190530100849-add-pharmacy-table 
+2019-06-03 14:50:33,387 [main] INFO  migratus.core - Migration reserved by another instance. Ignoring. 
+2019-06-03 14:50:33,387 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 14:53:06,597 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:53:09,431 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 14:53:09,665 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 14:53:09,742 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@4c64130 
+2019-06-03 14:53:09,758 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 14:53:10,081 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 14:53:10,260 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 14:53:10,261 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 14:53:10,298 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 14:53:10,299 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 14:53:10,299 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 14:53:10,299 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 14:53:10,299 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 14:53:59,016 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 14:53:59,019 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-857746980, ignoring options. 
+2019-06-03 14:53:59,021 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@4c64130 
+2019-06-03 14:53:59,025 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 14:53:59,026 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 14:53:59,037 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 14:53:59,038 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 14:53:59,038 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 14:53:59,038 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 14:55:01,788 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:55:04,869 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:55:05,292 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x798cb469 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:55:05,313 [main] INFO  migratus.core - Running up for [20190530100849] 
+2019-06-03 14:55:05,313 [main] INFO  migratus.core - Up 20190530100849-add-pharmacy-table 
+2019-06-03 14:55:05,325 [main] INFO  migratus.core - Migration reserved by another instance. Ignoring. 
+2019-06-03 14:55:05,325 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 14:57:12,123 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:57:14,155 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:57:14,573 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x10b34165 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:57:14,583 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 14:58:24,224 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:58:26,243 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:58:26,570 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0xc8080e6 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:58:26,586 [main] INFO  migratus.core - Running down for [20190529100849] 
+2019-06-03 14:58:26,586 [main] INFO  migratus.core - Down 20190529100849-add-pharmacy-table 
+2019-06-03 14:58:26,598 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 14:59:29,371 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 14:59:31,597 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 14:59:31,914 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x10b34165 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 14:59:31,922 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:02:18,827 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:02:20,843 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:02:21,120 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0xc8080e6 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:02:21,126 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:03:27,507 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:03:29,686 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:03:30,065 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x2b065bdb /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:03:30,080 [main] INFO  migratus.core - Running down for [20190529100849] 
+2019-06-03 15:03:30,081 [main] INFO  migratus.core - Down 20190529100849-add-pharmacy-table 
+2019-06-03 15:03:30,098 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:04:49,764 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:04:52,099 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:04:52,466 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0xc8080e6 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:04:52,478 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:06:45,807 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:06:48,213 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 15:06:48,352 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 15:06:48,410 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@2c94326f 
+2019-06-03 15:06:48,449 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 15:06:48,790 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 15:06:48,890 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 15:06:48,892 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 15:06:48,929 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 15:06:48,930 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 15:06:48,930 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 15:06:48,931 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 15:06:48,931 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 15:07:26,472 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 15:07:26,476 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:1415782804, ignoring options. 
+2019-06-03 15:07:26,478 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@2c94326f 
+2019-06-03 15:07:26,481 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 15:07:26,483 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 15:07:26,495 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 15:07:26,495 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 15:07:26,496 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 15:07:26,496 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 15:10:55,991 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:10:58,102 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:10:58,416 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0xc8080e6 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:10:58,431 [main] INFO  migratus.core - Running up for [20190530100849] 
+2019-06-03 15:10:58,432 [main] INFO  migratus.core - Up 20190530100849-add-pharmacy-table 
+2019-06-03 15:10:58,450 [main] INFO  migratus.core - Migration reserved by another instance. Ignoring. 
+2019-06-03 15:10:58,450 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:14:54,827 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:14:56,937 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:14:57,303 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2019-06-03 15:14:57,352 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x685f7fd9 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:14:57,373 [main] INFO  migratus.core - Running up for [20190529100849 20190530100849] 
+2019-06-03 15:14:57,374 [main] INFO  migratus.core - Up 20190529100849-add-pharmacy-table 
+2019-06-03 15:14:57,390 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 15:14:57,411 [main] DEBUG migratus.database - marking 20190529100849 complete 
+2019-06-03 15:14:57,428 [main] INFO  migratus.core - Up 20190530100849-add-pharmacy-table 
+2019-06-03 15:14:57,434 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 15:14:57,441 [main] ERROR migratus.migration.sql - failed to execute command:
+ CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ 
+2019-06-03 15:14:57,441 [main] ERROR migratus.migration.sql - Table "PHARMACY" already exists; SQL statement:
+CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ [42101-197] 
+2019-06-03 15:14:57,442 [main] ERROR migratus.database - Migration add-pharmacy-table failed because Table "PHARMACY" already exists; SQL statement:
+CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ [42101-197] backing out 
+2019-06-03 15:14:57,443 [main] DEBUG migratus.migration.sql - found 1 down migrations 
+2019-06-03 15:14:57,455 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:16:30,941 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:16:33,323 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 15:16:33,454 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 15:16:33,506 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@618e424f 
+2019-06-03 15:16:33,521 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 15:16:33,802 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 15:16:33,924 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 15:16:33,925 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 15:16:33,964 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 15:16:33,964 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 15:16:33,965 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 15:16:33,966 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 15:16:33,967 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 15:17:23,195 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 15:17:23,200 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:1329708979, ignoring options. 
+2019-06-03 15:17:23,202 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@618e424f 
+2019-06-03 15:17:23,208 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 15:17:23,212 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 15:17:23,223 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 15:17:23,226 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 15:17:23,227 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 15:17:23,227 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 15:18:27,629 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:18:31,153 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:18:31,171 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2019-06-03 15:18:31,211 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x57358e33 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:18:31,227 [main] INFO  migratus.core - Running up for [20190529100849 20190530100849] 
+2019-06-03 15:18:31,228 [main] INFO  migratus.core - Up 20190529100849-add-pharmacy-table 
+2019-06-03 15:18:31,239 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 15:18:31,250 [main] DEBUG migratus.database - marking 20190529100849 complete 
+2019-06-03 15:18:31,266 [main] INFO  migratus.core - Up 20190530100849-add-pharmacy-table 
+2019-06-03 15:18:31,269 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 15:18:31,280 [main] ERROR migratus.migration.sql - failed to execute command:
+ CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ 
+2019-06-03 15:18:31,280 [main] ERROR migratus.migration.sql - Table "PHARMACY" already exists; SQL statement:
+CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ [42101-197] 
+2019-06-03 15:18:31,281 [main] ERROR migratus.database - Migration add-pharmacy-table failed because Table "PHARMACY" already exists; SQL statement:
+CREATE TABLE pharmacy
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+medication_name VARCHAR(60),
+generic_name VARCHAR(60),
+uses VARCHAR(300),
+side_effects VARCHAR(300),
+precautions VARCHAR(300),
+stock INTEGER,
+expiration_date DATE,
+created_at TIMESTAMP);
+ [42101-197] backing out 
+2019-06-03 15:18:31,281 [main] DEBUG migratus.migration.sql - found 1 down migrations 
+2019-06-03 15:18:31,289 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:21:19,435 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:21:21,501 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:21:21,827 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2019-06-03 15:21:21,885 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x685f7fd9 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:21:21,892 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:24:48,421 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:24:50,578 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:24:50,957 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x2b065bdb /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:24:50,972 [main] INFO  migratus.core - Running up for [20190529100849] 
+2019-06-03 15:24:50,973 [main] INFO  migratus.core - Up 20190529100849-add-pharmacy-table 
+2019-06-03 15:24:50,990 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 15:24:51,005 [main] DEBUG migratus.database - marking 20190529100849 complete 
+2019-06-03 15:24:51,021 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:28:26,496 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:28:30,381 [main] INFO  migratus.core - Starting migrations 
+2019-06-03 15:28:30,411 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2019-06-03 15:28:30,461 [main] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x657e0d21 /Users/shiru/code/clojure/my-pharmacy/resources/migrations] 
+2019-06-03 15:28:30,478 [main] INFO  migratus.core - Running up for [20190529100849] 
+2019-06-03 15:28:30,480 [main] INFO  migratus.core - Up 20190529100849-add-pharmacy-table 
+2019-06-03 15:28:30,497 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2019-06-03 15:28:30,513 [main] DEBUG migratus.database - marking 20190529100849 complete 
+2019-06-03 15:28:30,528 [main] INFO  migratus.core - Ending migrations 
+2019-06-03 15:30:19,117 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:30:21,623 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 15:30:21,808 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 15:30:21,869 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 15:30:21,884 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 15:30:22,193 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 15:30:22,308 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 15:30:22,311 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 15:30:22,351 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 15:30:22,351 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 15:30:22,352 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 15:30:22,352 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 15:30:22,352 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 15:34:41,364 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 15:34:41,379 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:556526229, ignoring options. 
+2019-06-03 15:34:41,383 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@38729b3d 
+2019-06-03 15:34:41,389 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 15:34:41,392 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 15:34:41,401 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 15:34:41,401 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 15:34:41,401 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 15:34:41,402 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 15:35:33,819 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:35:36,289 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 15:35:36,431 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 15:35:36,480 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@618e424f 
+2019-06-03 15:35:36,494 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 15:35:36,738 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 15:35:36,825 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 15:35:36,827 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 15:35:36,854 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 15:35:36,855 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 15:35:36,856 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 15:35:36,856 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 15:35:36,856 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 15:40:45,710 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 15:40:45,733 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:1329708979, ignoring options. 
+2019-06-03 15:40:45,735 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@618e424f 
+2019-06-03 15:40:45,746 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 15:40:45,747 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 15:40:45,757 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 15:40:45,758 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 15:40:45,758 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 15:40:45,759 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 15:41:37,413 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:41:39,892 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 15:41:40,080 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 15:41:40,151 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@4257b876 
+2019-06-03 15:41:40,166 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 15:41:40,486 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 15:41:40,626 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 15:41:40,628 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 15:41:40,671 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 15:41:40,672 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 15:41:40,674 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 15:41:40,675 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 15:41:40,676 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 15:50:09,924 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 15:50:09,933 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1303396346, ignoring options. 
+2019-06-03 15:50:09,935 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@4257b876 
+2019-06-03 15:50:09,943 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 15:50:09,952 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 15:50:09,968 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 15:50:09,968 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 15:50:09,968 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 15:50:09,969 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 15:51:05,699 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 15:51:08,335 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 15:51:08,541 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 15:51:08,608 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@70298290 
+2019-06-03 15:51:08,624 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 15:51:09,147 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 15:51:09,609 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 15:51:09,611 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 15:51:09,649 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 15:51:09,649 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 15:51:09,649 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 15:51:09,649 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 15:51:09,649 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 15:59:13,441 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 15:59:13,451 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-871894759, ignoring options. 
+2019-06-03 15:59:13,459 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@70298290 
+2019-06-03 15:59:13,463 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 15:59:13,464 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 15:59:13,487 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 15:59:13,488 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 15:59:13,488 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 15:59:13,488 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 16:00:06,317 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 16:00:08,715 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 16:00:08,850 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 16:00:08,902 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@4257b876 
+2019-06-03 16:00:08,914 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 16:00:09,124 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 16:00:09,261 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 16:00:09,262 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 16:00:09,301 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 16:00:09,301 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 16:00:09,302 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 16:00:09,302 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 16:00:09,302 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 16:11:37,012 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 16:11:37,024 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1303396346, ignoring options. 
+2019-06-03 16:11:37,028 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@4257b876 
+2019-06-03 16:11:37,031 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 16:11:37,032 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 16:11:37,044 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 16:11:37,045 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 16:11:37,045 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 16:11:37,045 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 16:12:35,160 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 16:12:37,820 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 16:12:37,995 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 16:12:38,050 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@5fb44da3 
+2019-06-03 16:12:38,067 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 16:12:38,292 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 16:12:38,434 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 16:12:38,435 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 16:12:38,467 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 16:12:38,468 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 16:12:38,468 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 16:12:38,468 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 16:12:38,468 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 16:34:42,454 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 16:34:42,467 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1785187273, ignoring options. 
+2019-06-03 16:34:42,475 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@5fb44da3 
+2019-06-03 16:34:42,484 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 16:34:42,487 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 16:34:42,515 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 16:34:42,516 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 16:34:42,516 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 16:34:42,516 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 16:35:36,103 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 16:35:38,662 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 16:35:38,884 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 16:35:38,955 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@5fb44da3 
+2019-06-03 16:35:38,978 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 16:35:39,280 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 16:35:39,418 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 16:35:39,420 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 16:35:39,459 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 16:35:39,459 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 16:35:39,459 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 16:35:39,460 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 16:35:39,460 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 16:39:05,012 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 16:39:05,022 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1785187273, ignoring options. 
+2019-06-03 16:39:05,024 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@5fb44da3 
+2019-06-03 16:39:05,028 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 16:39:05,029 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 16:39:05,045 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 16:39:05,046 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 16:39:05,046 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 16:39:05,046 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 16:39:57,868 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 16:40:00,376 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 16:40:00,522 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 16:40:00,583 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@5fb44da3 
+2019-06-03 16:40:00,606 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 16:40:00,885 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 16:40:01,005 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 16:40:01,007 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 16:40:01,050 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 16:40:01,050 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 16:40:01,050 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 16:40:01,050 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 16:40:01,051 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 16:45:56,011 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 16:45:56,026 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1785187273, ignoring options. 
+2019-06-03 16:45:56,031 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@5fb44da3 
+2019-06-03 16:45:56,034 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 16:45:56,039 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 16:45:56,057 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 16:45:56,057 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 16:45:56,058 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 16:45:56,058 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 16:46:58,451 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 16:47:02,208 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 16:47:02,494 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 16:47:02,549 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@25b2d465 
+2019-06-03 16:47:02,573 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 16:47:02,943 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 16:47:03,109 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 16:47:03,111 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 16:47:03,187 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 16:47:03,192 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 16:47:03,193 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 16:47:03,193 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 16:47:03,194 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 16:51:06,733 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 16:51:06,752 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:2012487857, ignoring options. 
+2019-06-03 16:51:06,755 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@25b2d465 
+2019-06-03 16:51:06,757 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 16:51:06,758 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 16:51:06,765 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 16:51:06,765 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 16:51:06,765 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 16:51:06,766 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 
+2019-06-03 16:52:15,420 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2019-06-03 16:52:18,590 [main] INFO  my-pharmacy.env - 
+-=[my-pharmacy started successfully using the development profile]=- 
+2019-06-03 16:52:18,861 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2019-06-03 16:52:18,929 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@70298290 
+2019-06-03 16:52:18,942 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2019-06-03 16:52:19,211 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2019-06-03 16:52:19,351 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2019-06-03 16:52:19,367 [main] INFO  my-pharmacy.nrepl - starting nREPL server on port 7000 
+2019-06-03 16:52:19,401 [main] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* started 
+2019-06-03 16:52:19,403 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app started 
+2019-06-03 16:52:19,403 [main] INFO  my-pharmacy.core - #'my-pharmacy.handler/app started 
+2019-06-03 16:52:19,404 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server started 
+2019-06-03 16:52:19,404 [main] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server started 
+2019-06-03 18:32:42,395 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m23s108ms). 
+2019-06-03 18:41:43,928 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m1s513ms). 
+2019-06-03 18:45:14,113 [Thread-2] INFO  my-pharmacy.nrepl - nREPL server stopped 
+2019-06-03 18:45:14,143 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-871894759, ignoring options. 
+2019-06-03 18:45:14,199 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@70298290 
+2019-06-03 18:45:14,381 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2019-06-03 18:45:14,394 [Thread-2] INFO  my-pharmacy.env - 
+-=[my-pharmacy has shut down successfully]=- 
+2019-06-03 18:45:14,556 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/repl-server stopped 
+2019-06-03 18:45:14,568 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.core/http-server stopped 
+2019-06-03 18:45:14,574 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.handler/init-app stopped 
+2019-06-03 18:45:14,577 [Thread-2] INFO  my-pharmacy.core - #'my-pharmacy.db.core/*db* stopped 

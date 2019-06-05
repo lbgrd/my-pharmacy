@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="tile is-ancestor is-vertical">
+      {% for item in medications %}
+   {% if forloop.counter0 = 0 %}<div class="tile is-12">{% endif %}
+      {% if forloop.counter0|divide:3 = 1 %}<div class="tile is-12">{% endif %}
+          <div class="tile is-parent is-4">
+            <div class="tile is-child">
+          <div class="card">
+          <header class="card-header">
+            <p class="card-header-title is-fullwidth">{{item.medication_name}}{% if item.generic_name|not-empty %} ({{item.generic_name}}){% endif %}</p>
+            </header>
+        <div class="card-content">
+            <div class="tabs is-centered is-medium">
+  <ul>
+    <li class="tab is-active tab-{{item.medication_name}}" onclick="openTab(event,'Uses-{{item.medication_name}}', '{{item.medication_name}}')"><a>Uses</a></li>
+    <li class="tab tab-{{item.medication_name}}" onclick="openTab(event,'SideEffects-{{item.medication_name}}', '{{item.medication_name}}')"><a>Side Effects</a></li>
+    <li class="tab tab-{{item.medication_name}}" onclick="openTab(event,'Precautions-{{item.medication_name}}', '{{item.medication_name}}')"><a>Precautions</a></li>
+  </ul>
+            </div>
+            <div id="Uses-{{item.medication_name}}" class="content-tab-{{item.medication_name}}"><p>{{item.uses}}</p></div>
+            <div id="SideEffects-{{item.medication_name}}" class="content-tab-{{item.medication_name}}" style="display:none"><p>{{item.side_effects}}</p></div>
+            <div id="Precautions-{{item.medication_name}}" class="content-tab-{{item.medication_name}}" style="display:none"><p>{{item.precautions}}</p></div>
+        </div>
+        <div class="tags is-centered">
+              <span class="tag"><strong>Stock&nbsp;</strong> {{item.stock}}</span>
+              <span class="tag"><strong>Exp.&nbsp;</strong> {{item.expiration_date|date:fullDate}}</span>
+            </div>
+        <footer class="card-footer">
+    <a href="/edit?id={{item.id}}" class="card-footer-item">Edit</a>
+    <a href="/delete?id={{item.id}}" class="card-footer-item">Delete</a>
+  </footer>
+          </div>
+          </div>
+        </div>
+           {% if forloop.counter0|add:1|divide:3 = 1 %}</div>{% endif %}
+          {% endfor %}
+      </div>
+      </div>
+ 
+  <div class="columns">
+    <div class="column">
+      <form method="POST" action="/">
+        {% csrf-field %}
+              <div class="field">
+        <label class="label">Medication Name</label>
+        <div class="control">
+          <input class="input" name="medication_name" type="text" value="{{medication.medication_name}}"/>
+          {% if errors.medication_name %}
+          <div class="notification is-danger">{{errors.medication_name|join}}</div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Generic Name</label>
+        <div class="control">
+          <input class="input" name="generic_name" type="text" value="{{medication.generic_name}}"/>
+{% if errors.generic_name %}
+<div class="notification is-danger">{{errors.generic_name|join}}</div>
+{% endif %}
+</div>
+</div>
+
+<div class="field">
+  <label class="label">Uses</label>
+  <div class="control">
+    <textarea class="textarea" name="uses">{{medication.uses}}</textarea>
+    {% if errors.uses %}
+    <div class="notification is-danger">{{errors.uses|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Side Effects</label>
+  <div class="control">
+    <textarea class="textarea" name="side_effects">{{medication.side_effects}}</textarea>
+    {% if errors.side_effects %}
+    <div class="notification is-danger">{{errors.side_effects|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Precautions</label>
+  <div class="control">
+    <textarea class="textarea" name="precautions">{{medication.precautions}}</textarea>
+    {% if errors.precautions %}
+    <div class="notification is-danger">{{errors.precautions|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Stock</label>
+  <div class="control">
+    <input class="input" name="stock" type="number" value="{{medication.stock}}"/>
+
+    {% if errors.stock %}
+    <div class="notification is-danger">{{errors.stock|join}}</div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Expiration Date</label>
+  <div class="control">
+
+    <input class="input" name="expiration_date" type="date" value="{{medication.expiration_date}}"/>
+
+    {% if errors.expiration_date %}
+    <div class="notification is-danger">{{errors.expiration_date|join}}</div>
+    {% endif %}
+  </div>
+</div>
+        <br>
+        <input class="button is-primary" type="submit" value="Save"/>
+      </form>
+    </div>
+  </div>
+{% endblock %}
