@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-# my-pharmacy
-Basic personal pharmacy
-=======
 # My Pharmacy
 
-generated using Luminus version "3.34"
-
-FIXME
+Personal pharmacy manager.
+Track the inventory of your personal pharmacy.
+We can easily find out about stock and expiration date.
+Know quickly how to use a medication, side effects and precautions.
 
 ## Prerequisites
 
@@ -19,8 +16,13 @@ You will need [Leiningen][1] 2.0 or above installed.
 To start a web server for the application, run:
 
     lein run 
+## Screenshots
+### Homepage
+![alt text]("https://raw.githubusercontent.com/lbgrd/my-pharmacy/master/resources/public/img/screen_01.png" "My Pharmacy - Homepage")
+
+### Edit page
+![alt text]("https://raw.githubusercontent.com/lbgrd/my-pharmacy/master/resources/public/img/screen_02.png" "My Pharmacy - Edit page")
 
 ## License
 MIT
 Copyright © 2019 lbgrd
->>>>>>> First commit
