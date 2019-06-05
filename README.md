@@ -18,10 +18,10 @@ To start a web server for the application, run:
     lein run 
 ## Screenshots
 ### Homepage
-![alt text]("https://raw.githubusercontent.com/lbgrd/my-pharmacy/master/resources/public/img/screen_01.png" "My Pharmacy - Homepage")
+![](https://raw.githubusercontent.com/lbgrd/my-pharmacy/master/resources/public/img/screen_01.png "My Pharmacy - Homepage")
 
 ### Edit page
-![alt text]("https://raw.githubusercontent.com/lbgrd/my-pharmacy/master/resources/public/img/screen_02.png" "My Pharmacy - Edit page")
+![](https://raw.githubusercontent.com/lbgrd/my-pharmacy/master/resources/public/img/screen_02.png "My Pharmacy - Edit page")
 
 ## License
 MIT
