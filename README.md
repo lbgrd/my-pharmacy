@@ -2,8 +2,8 @@
 
 Personal pharmacy manager.
 Track the inventory of your personal pharmacy.
-We can easily find out about stock and expiration date.
-Know quickly how to use a medication, side effects and precautions.
+You can easily find out about stock and expiration dates of your medecine.
+Quickly check how to use a medication, side effects and precautions.
 
 ## Prerequisites
 
